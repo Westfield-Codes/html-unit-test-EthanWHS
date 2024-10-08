@@ -2,6 +2,7 @@
 
 body {
   width:90%;
+  text-align:center;
 }
 
 th {
@@ -9,15 +10,42 @@ th {
 }
 
 td {
-  padding-bottom:20px;
+    padding:5px;
+    vertical-align:center;
+	
 }
 
-
 th {
-  text-align:left;
-  padding-right:2em;
+  text-align:center;
 }
 
 ul {
-	margin:0;
+   margin:0;
+}
+
+tr {
+	text-align:center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li { 
+	text-align:left;
+}
+table {
+	Max-width:766px;
+	margin:auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+} 
+td:first-child {
+  background-color: black;
+}
+table table tr:first-child {
+  background-color: white;
+}
+tr:first-child {
+	background-color: white;
 }
